@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{13D4ED4C-9C96-4136-B1E6-164C120E9F86}</ProjectGuid>
+    <ProjectGuid>{3FFD157F-4672-4C2D-8B3A-B4FDAD2C92D4}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Tyuiu.ZargarovAA.Sprint6.Task1.V22</RootNamespace>
-    <AssemblyName>Tyuiu.ZargarovAA.Sprint6.Task1.V22</AssemblyName>
+    <RootNamespace>Tyuiu.MartysevichAD.Sprint6.Task6.V17</RootNamespace>
+    <AssemblyName>Tyuiu.MartysevichAD.Sprint6.Task6.V17</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FormAbout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAbout.Designer.cs">
+      <DependentUpon>FormAbout.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormMain.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -54,6 +60,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormAbout.resx">
+      <DependentUpon>FormAbout.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormMain.resx">
       <DependentUpon>FormMain.cs</DependentUpon>
     </EmbeddedResource>
@@ -66,6 +75,7 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include=".editorconfig" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -80,9 +90,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Tyuiu.DreminIa.Sprint6.Task1.V22.Lib\Tyuiu.ZargarovAA.Sprint6.Task1.V22.Lib.csproj">
-      <Project>{9104f663-be84-4d05-a35e-3c5afeb400ba}</Project>
-      <Name>Tyuiu.ZargarovAA.Sprint6.Task1.V22.Lib</Name>
+    <ProjectReference Include="..\Tyuiu.DreminIa.Sprint6.Task6.V17.Lib\Tyuiu.MartysevichAD.Sprint6.Task6.V17.Lib.csproj">
+      <Project>{688c376c-3f77-4746-ac48-ada62c718fdc}</Project>
+      <Name>Tyuiu.MartysevichAD.Sprint6.Task6.V17.Lib</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -80,7 +80,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Tyuiu.LoginovMV.Sprint6.Task0.V2.Lib\Tyuiu.LoginovMV.Sprint6.Task0.V2.Lib.csproj">
+    <ProjectReference Include="..\Tyuiu.DreminIa.Sprint6.Task0.V2.Lib\Tyuiu.LoginovMV.Sprint6.Task0.V2.Lib.csproj">
       <Project>{de60675b-896c-44eb-9e14-98c8ff233d9e}</Project>
       <Name>Tyuiu.LoginovMV.Sprint6.Task0.V2.Lib</Name>
     </ProjectReference>
